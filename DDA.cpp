@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <graphics.h>
 #include <conio.h>
-int round(float x)
-{
-    return (int)x + 0.5;
-}
+// int round(float x)
+// {
+//     return (int)x + 0.5;
+// }
 int abs(int x)
 {
     int out;
@@ -48,7 +48,7 @@ int main()
     // printf("Enter the coordinates for the second point\n");
     // scanf("%d%d", &c, &d);
     // DDA(a, b, c, d);
-    DDA(10, 10, 500, 300);
+    DDA(10, 10, 30, 10);
     getch();
     closegraph();
     return 0;
